@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.vanniktech.maven.publish)
 }
 
+group = "io.github.dynamicprodbreaker"
 version = "1.0.0"
 
 kotlin {
