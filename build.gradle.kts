@@ -23,25 +23,25 @@ mavenPublishing {
         name = "Framework"
         description = "Compiler backend for optimizing and code generation targeting Javascript"
         inceptionYear = "2024"
-        url = ""
+        url = "https://github.com/FrameworkCompilers/framework"
         licenses {
             license {
-                name = ""
-                url = ""
-                distribution = ""
+                name = "MIT License"
+                url = "https://opensource.org/licenses/MIT"
+                distribution = "https://opensource.org/licenses/MIT"
             }
         }
         developers {
             developer {
-                id = ""
-                name = ""
-                url = ""
+                id = "DynamicProdBreaker"
+                name = "Joseph Tay"
+                url = "https://github.com/DynamicProdBreaker"
             }
         }
         scm {
-            url = ""
-            connection = ""
-            developerConnection = ""
+            url = "https://github.com/FrameworkCompilers/framework"
+            connection = "scm:git:git://github.com/FrameworkCompilers/framework.git"
+            developerConnection = "scm:git:ssh://git@github.com/FrameworkCompilers/framework.git"
         }
     }
 }
