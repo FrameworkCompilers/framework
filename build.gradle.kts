@@ -46,3 +46,7 @@ mavenPublishing {
         }
     }
 }
+
+extensions.getByType(SigningExtension::class.java).setRequired {
+    !gradle.taskGraph.allTasks.any { it is PublishToMavenLocal }
+}
